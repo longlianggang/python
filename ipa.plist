@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+        <key>Unity-iPhone.ipa</key>
+        <array>
+                <dict>
+                        <key>architectures</key>
+                        <array>
+                                <string>armv7</string>
+                                <string>arm64</string>
+                        </array>
+                        <key>certificate</key>
+                        <dict>
+                                <key>url</key>  
+                                <string>https://119.147.42.154/ttby0404.ipa</string>
+                                <key>SHA1</key>
+                                <string>F26EACFBC9E3FA86D7B15B56321823D8E65CA37B</string>
+                                <key>dateExpires</key>
+                                <string>2019/4/2</string>
+                                <key>type</key>
+                                <string>iOS Distribution</string>
+                        </dict>
+                        <key>entitlements</key>
+                        <dict>
+                                <key>application-identifier</key>
+                                <string>35322P6779.com.pandaol.yulechen</string>
+                                <key>beta-reports-active</key>
+                                <true/>
+                                <key>com.apple.developer.team-identifier</key>
+                                <string>35322P6779</string>
+                                <key>get-task-allow</key>
+                                <false/>
+                                <key>keychain-access-groups</key>
+                                <array>
+                                        <string>35322P6779.com.pandaol.yulechen</string>
+                                </array>
+                        </dict>
+                        <key>name</key>
+                        <string>yulechen.app</string>
+                        <key>profile</key>
+                        <dict>
+                                <key>UUID</key>
+                                <string>cbd3c479-c59a-4ab9-9430-27cadc6cc7f0</string>
+                                <key>name</key>
+                                <string>iOS Team Store Provisioning Profile: *</string>
+                        </dict>
+                        <key>symbols</key>
+                        <true/>
+                        <key>team</key>
+                        <dict>
+                                <key>id</key>
+                                <string>35322P6779</string>
+                                <key>name</key>
+                                <string>Kashim Petra</string>
+                        </dict>
+                </dict>
+        </array>
+</dict>
+</plist>
