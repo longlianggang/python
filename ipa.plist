@@ -1,31 +1,53 @@
-<?xml version="1.0" encoding="UTF-8"?>  
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">  
-<plist version="1.0">  
-<dict>  
-<key>ttby0404.ipa</key>  
-<array>  
-<dict>  
-<key>assets</key>  
-<array>  
-<dict>  
-<key>kind</key>  
-<string>software-package</string>  
-<key>url</key>  
-<string>https://119.147.42.154/ttby0404.ipa</string>  
-</dict>  
-</array>  
-<key>metadata</key>  
-<dict>  
-<key>bundle-identifier</key>  
-<string>35322P6779.com.pandaol.yulechen</string>  
-<key>bundle-version</key>  
-<string>1.0</string>  
-<key>kind</key>  
-<string>software</string>  
-<key>title</key>  
-<string>ttby0404</string>  
-</dict>  
-</dict>  
-</array>  
-</dict>  
+<a href="itms-services://?action=download-manifest&url=https://t-chip.com.cn/xxxx.plist">安装</a>
+plist文件如下：
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+   <key>items</key>
+   <array>
+       <dict>
+           <key>assets</key>
+           <array>
+               <dict>
+                   <key>kind</key>
+                   <string>software-package</string>
+                   <key>url</key>
+                   <string>https://119.147.42.154/ttby0404.ipa</string>
+               </dict>
+               <dict>
+                     <key>kind</key>
+                     <string>full-size-image</string>
+                     <key>needs-shine</key>
+                     <true/>
+                     <key>url</key>
+                     <string>xxx.xxx.png</string>
+               </dict>
+               <dict>
+                   <key>kind</key>
+                   <string>display-image</string>
+                   <key>needs-shine</key>
+                   <true/>
+                   <key>url</key>
+                   <string>xxx.xxx.png</string>
+               </dict>
+           </array>
+           <key>metadata</key>
+           <dict>
+               <key>bundle-identifier</key>
+               <string>35322P6779.com.pandaol.yulechen</string>
+               <key>bundle-version</key>
+               <string>1.0.0</string>
+               <key>kind</key>
+               <string>software</string>
+               <key>subtitle</key>
+               <string>App Subtitle</string>
+               <key>title</key>
+               <string>App Title</string>
+           </dict>
+       </dict>
+   </array>
+
+
+</dict>
 </plist>
